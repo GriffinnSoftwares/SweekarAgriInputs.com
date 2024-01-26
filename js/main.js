@@ -70,6 +70,6 @@
 })(jQuery);
 
 function sendMessage() {
-  var url = "https://wa.me/+917019380835?text=Hi%20Nitish";
+  var url = "https://wa.me/+917019380835?text=Hi%20Nitish%0aHello%20All";
   window.open(url).focus();
 }
