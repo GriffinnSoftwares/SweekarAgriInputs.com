@@ -71,5 +71,5 @@
 
 function sendMessage() {
   var url = "https://wa.me/+917019380835";
-  window.open(url, "_blank").focus();
+  window.open(url).focus();
 }
