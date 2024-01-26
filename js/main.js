@@ -24,17 +24,17 @@
   });
 
   // Back to top button
-//   $(window).scroll(function () {
-//     if ($(this).scrollTop() > 300) {
-//       $(".back-to-top").fadeIn("slow");
-//     } else {
-//       $(".back-to-top").fadeOut("slow");
-//     }
-//   });
-//   $(".back-to-top").click(function () {
-//     $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
-//     return false;
-//   });
+  //   $(window).scroll(function () {
+  //     if ($(this).scrollTop() > 300) {
+  //       $(".back-to-top").fadeIn("slow");
+  //     } else {
+  //       $(".back-to-top").fadeOut("slow");
+  //     }
+  //   });
+  //   $(".back-to-top").click(function () {
+  //     $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
+  //     return false;
+  //   });
 
   // Facts counter
   $('[data-toggle="counter-up"]').counterUp({
@@ -70,6 +70,6 @@
 })(jQuery);
 
 function sendMessage() {
-  var url = "https://wa.me/+917019380835";
+  var url = "https://wa.me/+917019380835?text=Hi%20Nitish";
   window.open(url).focus();
 }
