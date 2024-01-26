@@ -111,6 +111,7 @@
           <a href="about.html" class="nav-item nav-link">About</a>
           <a href="service.html" class="nav-item nav-link">Services</a>
           <a href="project.html" class="nav-item nav-link">Projects</a>
+
           <div class="nav-item dropdown">
             <a
               href="#"
@@ -129,13 +130,13 @@
             </div>
           </div>
           <a href="contact.html" class="nav-item nav-link">Contact</a>
+          <a
+            href=""
+            onclick="sendMessage()"
+            class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block"
+            >WhatsApp Us<i class="fa fa-arrow-right ms-3"></i
+          ></a>
         </div>
-        <a
-          href=""
-          onclick="sendMessage()"
-          class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block"
-          >WhatsApp Us<i class="fa fa-arrow-right ms-3"></i
-        ></a>
       </div>
     </nav>
     <!-- Navbar End -->
@@ -1042,11 +1043,7 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a
-      href="#"
-      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+    <a href="#" onclick="sendMessage()"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
