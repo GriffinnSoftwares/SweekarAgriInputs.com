@@ -141,7 +141,7 @@ function updateCartTable() {
       <td class="product-name">${item.variety}</td>
       <td class="product-quantity">
         <button onclick="decrementQuantity(${index})">-</button>
-        <input type="number" value="${item.quantity}" step="10"  min="0" data-id="${index}" />
+        <input type="number" value="${item.quantity}" step="1"  min="0" data-id="${index}" />
         <button onclick="incrementQuantity(${index})">+</button>
       </td>
       <td class="product-total">${item.quantity}&nbsp;${item.unit}</td>
