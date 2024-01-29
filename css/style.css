@@ -279,7 +279,7 @@ h6,
   transition: 0.3;
 }
 
-.service-item:hover .service-text h4 {
+.service-item:hover .service-text h2 {
   color: #ffffff;
 }
 
@@ -324,21 +324,6 @@ h6,
   color: #ffffff;
 }
 
-.product-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
-}
-
-.product-item img {
-  transition: 0.5s;
-}
-
-.product-item:hover img {
-  transform: scale(1.1);
-}
-
-.product-item small a:hover {
-  color: var(--primary) !important;
-}
 /* product end  */
 
 /* Cart Start */
@@ -463,17 +448,7 @@ margin: 0 3%;
   overflow: hidden;
 }
 
-.portfolio-inner::before,
-.portfolio-inner::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(15, 66, 41, 0.6);
-  transition: 0.5s;
-}
+
 
 .portfolio-inner::after {
   left: auto;
@@ -500,20 +475,6 @@ margin: 0 3%;
   opacity: 0;
 }
 
-.portfolio-inner:hover .portfolio-text {
-  transition-delay: 0.3s;
-  opacity: 1;
-}
-
-.portfolio-inner .portfolio-text .btn {
-  background: var(--light);
-  color: var(--primary);
-}
-
-.portfolio-inner .portfolio-text .btn:hover {
-  background: var(--primary);
-  color: var(--light);
-}
 
 /*** Team ***/
 .team-item {
@@ -526,7 +487,7 @@ margin: 0 3%;
   width: calc(100% - 45px);
   left: -100%;
   bottom: 45px;
-  padding: 1.5rem;
+  padding: 1rem;
   background: #ffffff;
   border-radius: 0 4px 4px 0;
   opacity: 0;
@@ -637,4 +598,8 @@ margin: 0 3%;
 
 .copyright a:hover {
   color: var(--primary);
+}
+
+.pointer{
+  cursor: pointer;
 }

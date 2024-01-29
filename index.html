@@ -110,8 +110,8 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
           <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="" class="nav-item nav-link">About</a>
-          <a href="" class="nav-item nav-link">Projects</a>
+          <a href="#aboutSection" class="nav-item nav-link">About</a>
+          <!-- <a href="" class="nav-item nav-link">Projects</a> -->
 
           <div class="nav-item dropdown">
             <a
@@ -126,15 +126,19 @@
               <a href="team.html" class="dropdown-item">Our Team</a>
               <a href="testimonial.html" class="dropdown-item">Testimonial</a>
               <a href="404.html" class="dropdown-item">404 Page</a> -->
-              <a href="tomato.html" class="dropdown-item">Vegetables</a>
-              <a href="tomato.html" class="dropdown-item">Field Crops</a>
+              <a onclick="clickVegSeeds()" class="dropdown-item pointer"
+                >Vegetables</a
+              >
+              <a onclick="clickFieldCrops()" class="dropdown-item pointer"
+                >Field Crops</a
+              >
             </div>
           </div>
-          <a href="" class="nav-item nav-link">Contact</a>
-          <a href="cart.html" class="nav-item nav-link"
+          <a href="#contactSection"  class="nav-item nav-link">Contact</a>
+          <!-- <a href="cart.html" class="nav-item nav-link"
             >Cart<i class="bi-cart3 ms-2"></i
             ><span class="ms-2 text-dark" id="cartCount">0</span></a
-          >
+          > -->
 
           <a
             href=""
@@ -165,9 +169,9 @@
                     <h1 class="display-1 text-white mb-5 animated slideInDown">
                       Agri Clinic and Agri Business Center
                     </h1>
-                    <a href="" class="btn btn-primary py-sm-3 px-sm-4"
+                    <!-- <a href="" class="btn btn-primary py-sm-3 px-sm-4"
                       >Explore More</a
-                    >
+                    > -->
                   </div>
                 </div>
               </div>
@@ -182,9 +186,6 @@
                     <h1 class="display-1 text-white mb-5 animated slideInDown">
                       Hybrid & Research Variety - Field Crops & Vegetable Seeds
                     </h1>
-                    <a href="" class="btn btn-primary py-sm-3 px-sm-4"
-                      >Explore More</a
-                    >
                   </div>
                 </div>
               </div>
@@ -220,17 +221,23 @@
           <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
             <div
               class="bg-white shadow d-flex align-items-center h-100 px-5"
-              style="min-height: 160px"
+              style="min-height: 250px"
             >
               <div class="d-flex">
                 <div
                   class="flex-shrink-0 btn-lg-square rounded-circle bg-light"
                 >
-                  <i class="fa fa-times text-primary"></i>
+                  <i class="fa fa-search text-primary"></i>
                 </div>
                 <div class="ps-3">
                   <h4>Research & Development</h4>
-                  <span>Scientific, Well documented and Thorough Research</span>
+                  <span  style="text-align: justify;">
+                    <i class="fa fa-location-arrow text-primary"></i>
+
+                    14 Kms from Ranebennur,<br />
+                    Sn No.282/11, Sanjeevini Agri Farm Bannihatti Road,
+                    Kadaramandalagi-581106</span
+                  >
                 </div>
               </div>
             </div>
@@ -247,8 +254,8 @@
                   <i class="fa fa-users text-primary"></i>
                 </div>
                 <div class="ps-3">
-                  <h4>Dedicated Team</h4>
-                  <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                  <h4>FPO Supplier</h4>
+                  <span style="text-align: justify;" >Shri Manjunatha Swamy FPO<br> Turuvanur, Chitradurga.<br>Supplier of Seeds, Plant Nutrients and Fertilizers</span>
                 </div>
               </div>
             </div>
@@ -265,8 +272,8 @@
                   <i class="fa fa-phone text-primary"></i>
                 </div>
                 <div class="ps-3">
-                  <h4>24/7 Available</h4>
-                  <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                  <h4>Franchise</h4>
+                  <span  style="text-align: justify;">Franchise for retail available all over Karnataka. Please conatct for further information.</span>
                 </div>
               </div>
             </div>
@@ -277,7 +284,7 @@
     <!-- Top Feature End -->
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="aboutSection">
       <div class="container">
         <div class="row g-5 align-items-center">
           <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -286,31 +293,47 @@
               data-wow-delay="0.1s"
               src="./assets/profile11.jpg"
             />
+            <h3 class="text-center">Channabasappa Ajjammanavar</h3>
+            <h6 class="text-center">Managing Director</h6>
           </div>
           <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
-            <h1 class="display-1 text-primary mb-0">10</h1>
-            <p class="text-primary mb-4">Year of Experience</p>
-            <h1 class="display-5 mb-4">We Make Your Home Like A Garden</h1>
-            <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+            <h1 class="display-1 text-primary mb-0">16+</h1>
+            <p class="text-primary mb-4">Years of Experience</p>
+            <h1 class="display-5 mb-4" style="font-size: 20px">
+              Sweekar Agri Inputs: Cultivating Excellence Together
+            </h1>
+            <p class="mb-4" style="text-align: justify;" >
+              Welcome to the world of agriculture led by a seasoned
+              professional, Channabasappa Ajjammanavar. With over 16 years of
+              experience in agri-seeds production, marketing, and plant nutrient
+              fertilizers marketing, he leads with entrepreneurial spirit and
+              expertise. Specializing in both agri-seeds and plant nutrients
+              fertilizers marketing, under his guidance, Sweekar Agri Inputs
+              thrives, known for excellence and innovation. Channabasappa is not
+              just a professional but a respected figure in local agricultural
+              circles. Beyond business, his active involvement in community
+              initiatives reflects a passion for advancing agriculture. Join us
+              in exploring the future of agriculture with Channabasappa
+              Ajjammanavar – where experience meets innovation.
             </p>
-            <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
           </div>
           <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="row g-5">
+            <div class="row g-0">
               <div class="col-12 col-sm-6 col-lg-12">
-                <div class="border-start ps-4">
+                <div class="border-start  ps-4">
                   <i class="fa fa-award fa-3x text-primary mb-3"></i>
-                  <h4 class="mb-3">Award Winning</h4>
-                  <span
-                    >Clita erat ipsum et lorem et sit, sed stet lorem sit clita
-                    duo justo magna</span
-                  >
+                  <h2 class="mb-3">Our Value Added Suppliers</h2>
+                  <ul class="fw-bold">
+                  <li
+                    >Morya Agroseeds, Maharashtra</li>
+                    <li>Jakkula Seeds Pvt. Ltd., Telangana </li>
+                    <li>Dmart BioScience, Telangana</li>
+                    <li>Sanjeevini Agri Seeds, Bengaluru</li>
+                    <li>Gautami Seeds, Karnool</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-lg-12">
+              <!-- <div class="col-12 col-sm-6 col-lg-12">
                 <div class="border-start ps-4">
                   <i class="fa fa-users fa-3x text-primary mb-3"></i>
                   <h4 class="mb-3">Dedicated Team</h4>
@@ -319,7 +342,7 @@
                     duo justo magna</span
                   >
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -336,33 +359,33 @@
       <div class="container py-5">
         <div class="row g-5">
           <div
-            class="col-sm-6 col-lg-3 text-center wow fadeIn"
+            class="col-sm-6 col-lg-4 text-center wow fadeIn"
             data-wow-delay="0.1s"
           >
-            <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+            <h1 class="display-4 text-white">5000+</h1>
             <span class="fs-5 fw-semi-bold text-light">Happy Clients</span>
           </div>
           <div
-            class="col-sm-6 col-lg-3 text-center wow fadeIn"
+            class="col-sm-6 col-lg-4 text-center wow fadeIn"
             data-wow-delay="0.3s"
           >
-            <h1 class="display-4 text-white" data-toggle="counter-up">2</h1>
-            <span class="fs-5 fw-semi-bold text-light">FPO Supplier</span>
+            <h1 class="display-4 text-white">5+</h1>
+            <span class="fs-5 fw-semi-bold text-light">Suppliers</span>
           </div>
           <div
-            class="col-sm-6 col-lg-3 text-center wow fadeIn"
+            class="col-sm-6 col-lg-4 text-center wow fadeIn"
             data-wow-delay="0.5s"
           >
-            <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+            <h1 class="display-4 text-white">50+</h1>
             <span class="fs-5 fw-semi-bold text-light">Dedicated Staff</span>
           </div>
-          <div
+          <!-- <div
             class="col-sm-6 col-lg-3 text-center wow fadeIn"
             data-wow-delay="0.7s"
           >
-            <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+            <h1 class="display-4 text-white">1234</h1>
             <span class="fs-5 fw-semi-bold text-light">Awards Achieved</span>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -374,13 +397,22 @@
         <div class="row g-5 align-items-center">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <p class="fs-5 fw-bold text-primary">Why Choosing Us!</p>
-            <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
-            <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+            <h1 class="display-5 mb-4">Few reasons why people choosing us!</h1>
+            <p class="mb-4"  style="text-align: justify;">
+              Choosing us comes with a multitude of compelling reasons. With a
+              proven track record spanning years, we bring unparalleled
+              expertise to the table. Our commitment to innovation drives us to
+              provide cutting-edge solutions that redefine industry standards.
+              Clients choose us for our unwavering dedication to excellence,
+              ensuring that every interaction exceeds expectations. We
+              prioritize customer satisfaction, delivering not just products or
+              services, but an experience that resonates with quality.
+              Forward-thinking and reliability are the cornerstones of our
+              approach, ensuring that every partnership with us is a step
+              towards success. Join the many who have chosen us and experience
+              the difference firsthand.
             </p>
-            <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
+            <!-- <a class="btn btn-primary py-3 px-4" href="">Explore More</a> -->
           </div>
           <div class="col-lg-6">
             <div class="row g-4 align-items-center">
@@ -409,25 +441,43 @@
                         class="btn-square bg-light rounded-circle mx-auto mb-4"
                         style="width: 90px; height: 90px"
                       >
-                        <i class="fa fa-users fa-3x text-primary"></i>
+                        <i class="fa fa-thumbs-up fa-3x text-primary"></i>
                       </div>
-                      <h4 class="mb-0">Dedicated Team</h4>
+                      <h4 class="mb-0">Quality Assurance</h4>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                <div
-                  class="text-center rounded py-5 px-4"
-                  style="box-shadow: 0 0 45px rgba(0, 0, 0, 0.08)"
-                >
-                  <div
-                    class="btn-square bg-light rounded-circle mx-auto mb-4"
-                    style="width: 90px; height: 90px"
-                  >
-                    <i class="fa fa-tools fa-3x text-primary"></i>
+              <div class="col-md-6">
+                <div class="row g-4">
+                  <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                    <div
+                      class="text-center rounded py-5 px-4"
+                      style="box-shadow: 0 0 45px rgba(0, 0, 0, 0.08)"
+                    >
+                      <div
+                        class="btn-square bg-light rounded-circle mx-auto mb-4"
+                        style="width: 90px; height: 90px"
+                      >
+                        <i class="fa fa-rupee-sign fa-3x text-primary"></i>
+                      </div>
+                      <h4 class="mb-0">Competitive Pricing</h4>
+                    </div>
                   </div>
-                  <h4 class="mb-0">Modern Equipment</h4>
+                  <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                    <div
+                      class="text-center rounded py-5 px-4"
+                      style="box-shadow: 0 0 45px rgba(0, 0, 0, 0.08)"
+                    >
+                      <div
+                        class="btn-square bg-light rounded-circle mx-auto mb-4"
+                        style="width: 90px; height: 90px"
+                      >
+                        <i class="fa fa-truck fa-3x text-primary"></i>
+                      </div>
+                      <h4 class="mb-0">Committed Delivery</h4>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -446,7 +496,7 @@
           style="max-width: 500px"
         >
           <p class="fs-5 fw-bold text-primary">Seed Categories</p>
-          <h1 class="display-5 mb-5">High Quality Seeds</h1>
+          <h1 class="display-5 mb-5">Quality Seeds</h1>
         </div>
         <div class="row g-4">
           <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -458,12 +508,11 @@
                 <div class="btn-square rounded-circle mx-auto mb-3">
                   <img class="img-fluid" src="./assets/veg.png" alt="Icon" />
                 </div>
-                <h4 class="mb-3">Vegetable Crops</h4>
-                <p class="mb-4">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
+                <h2 class="mb-3">Vegetable Crops</h2>
+                <p class="mb-4"  style="font-size: 20px;text-align: justify;">
+                  Nourish your fields with our premium vegetable crop solutions for bountiful harvests and thriving agricultural yields. Excellence in every seed.
                 </p>
-                <a class="btn btn-sm" href=""
+                <a class="btn btn-sm" onclick="clickVegSeeds()"
                   ><i class="fa fa-plus text-primary me-2"></i>View Seeds</a
                 >
               </div>
@@ -478,12 +527,11 @@
                 <div class="btn-square rounded-circle mx-auto mb-3">
                   <img class="img-fluid" src="./assets/cash.png" alt="Icon" />
                 </div>
-                <h4 class="mb-3">Cash Crops</h4>
-                <p class="mb-4">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
+                <h2 class="mb-3">Field Crops</h2>
+                <p class="mb-4" style="font-size: 20px;text-align: justify;">
+                  Elevate your fields with our high-quality field crop solutions, maximizing yields and ensuring a robust and successful agricultural harvest.
                 </p>
-                <a class="btn btn-sm" href=""
+                <a class="btn btn-sm" onclick="clickFieldCrops()"
                   ><i class="fa fa-plus text-primary me-2"></i>View Seeds</a
                 >
               </div>
@@ -581,241 +629,161 @@
     <div class="container-xxl py-5">
       <div class="container">
         <div
-          class="text-center mx-auto wow fadeInUp"
+          class="text-center mx-auto"
           data-wow-delay="0.1s"
           style="max-width: 500px"
         >
-          <p class="fs-5 fw-bold text-primary">Our Products</p>
-          <h1 class="display-5 mb-5">Our Wonderful Products</h1>
+          <p class="fs-5 fw-bold text-primary" id="products">Our Products</p>
+          <h1 class="display-5 mb-5">Our Superior Product Catalogue </h1>
         </div>
         <div class="row wow fadeInUp" data-wow-delay="0.3s">
           <div class="col-12 text-center">
             <ul class="list-inline rounded mb-5" id="portfolio-flters">
-              <li class="mx-2 active" data-filter="*">All</li>
-              <li class="mx-2" data-filter=".first">Vegetable Seeds</li>
-              <li class="mx-2" data-filter=".second">Field Crops</li>
+              <li class="mx-2 active" data-filter="*" id="allseeds">All</li>
+              <li class="mx-2" data-filter=".first" id="vegseeds">
+                Vegetable Seeds
+              </li>
+              <li class="mx-2" data-filter=".second" id="fieldcrops">
+                Field Crops
+              </li>
             </ul>
           </div>
         </div>
         <div class="row g-4 portfolio-container">
-          <div
-            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/Chilli.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Chilli</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/Chilli.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="chilli.html">
+                <img class="img-fluid" src="./assets/Chilli.jpg" alt="" />
+                <h4 class="text-center">Chilli</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
-            data-wow-delay="0.3s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item second">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/BitterGourd.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">BitterGourd</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/BitterGourd.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="maize.html">
+                <img class="img-fluid" src="./assets/Corn/Sweet-Corn-NS-8601.jpg" alt="" />
+                <h4 class="text-center">Maize</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/SpongeGourd.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Sponge Gourd</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/SpongeGourd.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="bitterGourd.html">
+                <img class="img-fluid" src="./assets/BitterGourd.jpg" alt="" />
+                <h4 class="text-center">Bitter Gourd</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/brinjal.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Brinjal</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/brinjal.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="SpongeGourd.html">
+                <img class="img-fluid" src="./assets/SpongeGourd.jpg" alt="" />
+                <h4 class="text-center">Sponge Gourd</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
-            data-wow-delay="0.3s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/Tomato.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Tomato</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/Tomato.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="onion.html">
+                <img class="img-fluid" src="./assets/Onion/Onion-Light-Red-102.jpg" alt="" />
+                <h4 class="text-center">Onion</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/RidgeGourd.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Ridge Gourd</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/RidgeGourd.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="brinjal.html">
+                <img class="img-fluid" src="./assets/brinjal.jpg" alt="" />
+                <h4 class="text-center">Brinjal</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/Watermelon.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Watermelon</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/Watermelon.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="ashgourd.html">
+                <img class="img-fluid" src="./assets/AshGourd.jpg" alt="" />
+                <h4 class="text-center">Ash Gourd</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
-            data-wow-delay="0.3s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/BottleGourd.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Bottle Gourd</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/BottleGourd.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="corriander.html">
+                <img class="img-fluid" src="./assets/Corriander/Coriander-Surabhi.jpg" alt="" />
+                <h4 class="text-center">Corriander</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/Cucumber.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Cucumber</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/Cucumber.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="beetroot.html">
+                <img class="img-fluid" src="./assets/Beetroot.jpg" alt="" />
+                <h4 class="text-center">Beetroot</h4>
+              </a>
             </div>
           </div>
-          <div
-            class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
+          <div class="col-lg-3 col-md-3 portfolio-item first">
             <div class="portfolio-inner rounded">
-              <img class="img-fluid" src="./assets/okra.jpg" alt="" />
-              <div class="portfolio-text">
-                <h4 class="text-white mb-4">Okra</h4>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square rounded-circle mx-2"
-                    href="./assets/okra.jpg"
-                    data-lightbox="portfolio"
-                    ><i class="fa fa-eye"></i
-                  ></a>
-                  <a class="btn btn-lg-square rounded-circle mx-2" href=""
-                    ><i class="fa fa-link"></i
-                  ></a>
-                </div>
-              </div>
+              <a href="cauliflower.html">
+                <img class="img-fluid" src="./assets/Cauliflower/Cauliflower 1119.jpg" alt="" />
+                <h4 class="text-center">Cauliflower</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 portfolio-item first">
+            <div class="portfolio-inner rounded">
+              <a href="capsicum.html">
+                <img class="img-fluid" src="./assets/Capsicum/Capsicum-NS-280.jpg" alt="" />
+                <h4 class="text-center">Capsicum</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 portfolio-item first">
+            <div class="portfolio-inner rounded">
+              <a href="Tomato.html">
+                <img class="img-fluid" src="./assets/Tomato.jpg" alt="" />
+                <h4 class="text-center">Tomato</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 portfolio-item first">
+            <div class="portfolio-inner rounded">
+              <a href="RidgeGourd.html">
+                <img class="img-fluid" src="./assets/RidgeGourd.jpg" alt="" />
+                <h4 class="text-center">RidgeGourd</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 portfolio-item first">
+            <div class="portfolio-inner rounded">
+              <a href="Watermelon.html">
+                <img class="img-fluid" src="./assets/Watermelon.jpg" alt="" />
+                <h4 class="text-center">Watermelon</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 portfolio-item first">
+            <div class="portfolio-inner rounded">
+              <a href="BottleGourd.html">
+                <img class="img-fluid" src="./assets/BottleGourd.jpg" alt="" />
+                <h4 class="text-center">BottleGourd</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 portfolio-item first">
+            <div class="portfolio-inner rounded">
+              <a href="Cucumber.html">
+                <img class="img-fluid" src="./assets/Cucumber.jpg" alt="" />
+                <h4 class="text-center">Cucumber</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 portfolio-item first">
+            <div class="portfolio-inner rounded">
+              <a href="okra.html">
+                <img class="img-fluid" src="./assets/okra.jpg" alt="" />
+                <h4 class="text-center">Okra</h4>
+              </a>
             </div>
           </div>
         </div>
@@ -826,73 +794,29 @@
     <!-- Team Start -->
     <div class="container-xxl py-5">
       <div class="container">
-        <div
-          class="text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 500px"
-        >
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
           <p class="fs-5 fw-bold text-primary">Our Team</p>
-          <h1 class="display-5 mb-5">Dedicated & Experienced Team Members</h1>
+          <h1 class="display-5 mb-5">Dedicated & Experienced Legal Advisors</h1>
         </div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="row g-6 mt-5 pt-2">
+          <div
+            class="col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center"
+            data-wow-delay="0.1s"
+          >
             <div class="team-item rounded">
-              <img class="img-fluid" src="./assets/profile11.jpg" alt="" />
-              <div class="team-text">
-                <h4 class="mb-0">CHANNABASAPPA AJJAMMANAVAR</h4>
-                <p class="text-primary">Proprietor</p>
-                <div class="team-social d-flex">
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
+              <img class="img-fluid" src="./assets/p1.jpeg" alt="" />
+              <h4 class="mb-0 mt-3 text-center">BASAVARAJ CHATRAD</h4>
+              <p class="text-primary text-center">Legal Advisor</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div
+            class="col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center"
+            data-wow-delay="0.1s"
+          >
             <div class="team-item rounded">
-              <img class="img-fluid" src="./assets/profile11.jpg" alt="" />
-              <div class="team-text">
-                <h4 class="mb-0">CHANNABASAPPA AJJAMMANAVAR</h4>
-                <p class="text-primary">Proprietor</p>
-                <div class="team-social d-flex">
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="team-item rounded">
-              <img class="img-fluid" src="./assets/profile11.jpg" alt="" />
-              <div class="team-text">
-                <h4 class="mb-0">CHANNABASAPPA AJJAMMANAVAR</h4>
-                <p class="text-primary">Proprietor</p>
-                <div class="team-social d-flex">
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle me-2" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
+              <img class="img-fluid" src="./assets/p2.jpeg" alt="" />
+              <h4 class="mb-0 mt-3 text-center">SHREEKANT AIRANI</h4>
+              <p class="text-primary text-center">Legal Advisor</p>
             </div>
           </div>
         </div>
@@ -906,43 +830,52 @@
         <div class="row g-5">
           <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
             <p class="fs-5 fw-bold text-primary">Testimonial</p>
-            <h1 class="display-5 mb-5">What Our Clients Say About Us!</h1>
-            <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet
-              lorem sit clita duo justo.
+            <h1 class="display-5 mb-5">What our clients say about us!</h1>
+            <p class="mb-4"  style="text-align: justify;">
+              Discover the impact through our clients' voices! Hear firsthand
+              experiences that echo satisfaction, trust, and success. Our
+              clients share stories of exceptional service, reliability, and the
+              transformative outcomes they've achieved. Explore what sets us
+              apart through the lens of those who have experienced our
+              commitment to excellence.
             </p>
-            <a class="btn btn-primary py-3 px-4" href="">See More</a>
+            <!-- <a class="btn btn-primary py-3 px-4" href="">See More</a> -->
           </div>
           <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
             <div class="owl-carousel testimonial-carousel">
               <div class="testimonial-item">
                 <img
                   class="img-fluid rounded mb-3"
-                  src="img/testimonial-1.jpg"
+                  src="./assets/profilepic.png"
                   alt=""
                 />
-                <p class="fs-5">
-                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                  labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                  et labore et tempor diam tempor erat.
+                <p class="fs-5"  style="text-align: justify;">
+                  Choosing Sweekar Agri Inputs has been a game-changer for our
+                  farm. The quality of their agri-seeds and plant nutrients
+                  fertilizers is unmatched. Channabasappa Ajjammanavar's
+                  guidance ensures innovation and excellence. Proud to be
+                  associated with a company that truly understands the pulse of
+                  agriculture.
                 </p>
-                <h4>Client Name</h4>
-                <span>Profession</span>
+                <h4>Prabhu Patil</h4>
+                <span>Dealer in Ranebennur</span>
               </div>
               <div class="testimonial-item">
                 <img
                   class="img-fluid rounded mb-3"
-                  src="img/testimonial-2.jpg"
+                  src="./assets/profilepic.png"
                   alt=""
                 />
-                <p class="fs-5">
-                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                  labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                  et labore et tempor diam tempor erat.
+                <p class="fs-5"  style="text-align: justify;">
+                  As a long-time client, we've witnessed the transformative
+                  impact of Sweekar Agri Inputs. Their commitment to quality and
+                  innovation is evident in every product. Channabasappa
+                  Ajjammanavar's leadership brings a perfect blend of experience
+                  and forward-thinking. Truly a reliable partner in our
+                  agricultural journey.
                 </p>
-                <h4>Client Name</h4>
-                <span>Profession</span>
+                <h4>Mahesh Budnur</h4>
+                <span>Dealer in Gadag</span>
               </div>
             </div>
           </div>
@@ -955,14 +888,15 @@
     <div
       class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn"
       data-wow-delay="0.1s"
+      id="contactSection"
     >
       <div class="container py-5">
         <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <h4 class="text-white mb-4">Our Office</h4>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>#496 Belakeri Road,
-              Kadaramandalagi-581106, Haveri, Karnataka
+            <p class="mb-2"  style="text-align: justify;">
+              <i class="fa fa-map-marker-alt me-3" ></i>#496 Belakeri Road,<br>
+              Kadaramandalagi-581106<br> Haveri, Karnataka
             </p>
             <p class="mb-2">
               <i class="fa fa-phone-alt me-3"></i>+91 9740349045
@@ -993,40 +927,15 @@
               ></a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-4">Our Products</h4>
-            <a class="btn btn-link" href="">Vegetable Crop Seeds</a>
-            <a class="btn btn-link" href="">Cash Crop Seeds</a>
-            <a class="btn btn-link" href="">Dummy</a>
-            <a class="btn btn-link" href="">Dummy</a>
-            <a class="btn btn-link" href="">Dummy</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-4">Quick Links</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-4">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative w-100">
-              <input
-                class="form-control bg-light border-light w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
+          <div class="col-lg-8 wow fadeIn" data-wow-delay="0.5s">
+            <div class="position-relative rounded overflow-hidden ">
+                <iframe class="position-relative w-100 "
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7218.860055316133!2d75.5085010122244!3d14.641530034434973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDM4JzIwLjYiTiA3NcKwMzAnNTUuMSJF!5e0!3m2!1sen!2sin!4v1706550479986!5m2!1sen!2sin"
+                frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="true" aria-hidden="false"
+                tabindex="0"></iframe>
             </div>
-          </div>
         </div>
+         
       </div>
     </div>
     <!-- Footer End -->
@@ -1056,7 +965,6 @@
       class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
       ><i class="bi bi-arrow-up"></i
     ></a>
-
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
