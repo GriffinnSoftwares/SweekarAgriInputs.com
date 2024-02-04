@@ -13,10 +13,10 @@
   var imageLoad = function () {
     setTimeout(function () {
       document.getElementById("allseeds").click();
-    }, 500);
+    }, 100);
     setTimeout(function () {
       document.getElementById("allseeds").click();
-    }, 600);
+    }, 150);
   };
   imageLoad();
   // Initiate the wowjs
