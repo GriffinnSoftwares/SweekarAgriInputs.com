@@ -14,6 +14,9 @@
     setTimeout(function () {
       document.getElementById("allseeds").click();
     }, 500);
+    setTimeout(function () {
+      document.getElementById("allseeds").click();
+    }, 500);
   };
   imageLoad();
   // Initiate the wowjs
