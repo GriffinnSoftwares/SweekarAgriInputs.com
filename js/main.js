@@ -131,7 +131,7 @@ function addToCart(e) {
     productContainer.querySelector(".text-center a").innerText;
 
   // Create the WhatsApp link
-  const whatsappLink = `https://wa.me/+917019380835?text=I Would like to know about this product, ${productName}`;
+  const whatsappLink = `https://wa.me/+91 9740349045?text=I Would like to know about this product, ${productName}`;
 
   // Open the WhatsApp link in a new tab
   window.open(whatsappLink);
@@ -213,7 +213,7 @@ function addToCart(e) {
 //   // message += `Total: $${calculateTotal()}%0a`;
 
 //   // Replace the following number with the actual WhatsApp number
-//   const phoneNumber = "+917019380835";
+//   const phoneNumber = "+91 9740349045";
 
 //   // Create the WhatsApp link
 //   const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -227,7 +227,7 @@ function sendMessage() {
 
   const encodedMessage = message;
 
-  const phoneNumber = "+917019380835";
+  const phoneNumber = "+91 9740349045";
 
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
