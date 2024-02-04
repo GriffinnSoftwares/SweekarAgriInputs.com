@@ -145,6 +145,12 @@ h6,
   }
 }
 
+@media (max-width:385px){
+  nav h1{
+    font-size: 12px;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: block;
