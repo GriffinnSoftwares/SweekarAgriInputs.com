@@ -241,10 +241,12 @@ function sendMessage() {
 function clickVegSeeds() {
   document.getElementById("vegseeds").scrollIntoView(true);
   document.getElementById("vegseeds").click();
+  closeHamburgerMenu();
 }
 function clickFieldCrops() {
   document.getElementById("fieldcrops").scrollIntoView(true);
   document.getElementById("fieldcrops").click();
+  closeHamburgerMenu();
 }
 
 // window.onload = function () {
