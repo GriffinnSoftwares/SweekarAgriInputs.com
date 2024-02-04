@@ -16,7 +16,7 @@
     }, 500);
     setTimeout(function () {
       document.getElementById("allseeds").click();
-    }, 500);
+    }, 600);
   };
   imageLoad();
   // Initiate the wowjs
@@ -255,3 +255,8 @@ function clickFieldCrops() {
 //   alert("hk");
 //   document.getElementById("allseeds").click();
 // });
+
+function closeHamburgerMenu() {
+  const hamburgerMenu = document.getElementById("hamburger");
+  hamburgerMenu.click();
+}
