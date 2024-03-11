@@ -248,6 +248,14 @@ function clickFieldCrops() {
   document.getElementById("fieldcrops").click();
   closeHamburgerMenu();
 }
+function clickFieldCrops1() {
+  document.getElementById("fieldcrops").scrollIntoView(true);
+  document.getElementById("fieldcrops").click();
+}
+function clickVegSeeds1() {
+  document.getElementById("vegseeds").scrollIntoView(true);
+  document.getElementById("vegseeds").click();
+}
 
 // window.onload = function () {
 //   alert("hk");
